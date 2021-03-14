@@ -1,0 +1,331 @@
+/* ========================= Global */
+:root{
+    --blue: #259CF0;
+    --white: #ffffff;
+    --snow: #e4e1e1;
+}
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ========================== Header */
+header{
+    padding: 0 5% 0 5%;
+    background: var(--blue);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ========================== Logo */
+header h1{
+    margin: 20px;
+}
+
+/* ========================== Menu */
+.wrap-menu, ul, li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.wrap-menu li {
+    list-style: none;
+}
+
+.wrap-menu li a{
+    color: var(--snow);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.wrap-menu li a:hover{
+    color: var(--white);
+}
+
+.btnMenu_close{
+    display: none;
+}
+
+/* ============================= Main */
+
+/* ===================== Home & Cards */
+#home {
+    background: url('../assets/home.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: 3rem;
+    padding: 2rem;
+    background: var(--white);
+    border-top: 2px solid var(--blue);
+    margin-top: 10rem;
+    margin-bottom: -25%;
+}
+
+.card-home i{
+    color: var(--blue);
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.card-home h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-home p {
+    padding-top: 1rem;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* ===================== Presentation */
+#presentation{
+    margin-top: 6rem;
+    padding: 0 5% 0 5%;
+}
+
+#presentation a {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+#presentation a:hover {
+    text-decoration: underline;
+}
+
+#presentation button{
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--white);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* ---------- VER DEPOIS ---------- */
+#presentation button:hover{
+    background: var(--white);
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}
+/* ---------- VER DEPOIS ---------- */
+
+
+.presentations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentations-content {
+    width: 50%;
+    height: 550px;
+    margin: 1rem 2rem 1rem 0;
+    padding: 15px 0 15px 0;
+}
+
+.presentations-content h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.presentations-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.presentations-content h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* ===================== Service */
+#service{
+    margin-top: 2rem;
+    padding: 0 5% 0 5%;
+    background: url('../assets/background-service.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 800px;
+}
+
+#service h2{
+    padding-top: 3rem;
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+#service .service-description {
+    margin-top: 1rem;
+    color: var(--white);
+    font-weight: 300;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.services{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services .cards-services{
+    width: 100%;
+    height: auto;
+    margin: 0.5rem;
+    background: var(--white);
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.services .cards-services h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 2rem;
+    text-align: left;
+}
+
+.services .cards-services p{
+    font-size: 1rem;
+    font-weight: 300;
+    padding-left: 2rem;
+    text-align: left;
+    font-size: 15px;
+}
+
+/* ===================== News */
+#news{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    padding: 0 5% 0 5%;
+}
+
+#news h2 {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+#news,p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.container-cards-news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3.5rem;
+}
+
+.cards-news{
+    width: 100%;
+    height: 450px;
+    margin: 0.5rem;
+}
+
+.cards-news h3{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.cards-news p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.cards-news button {
+    margin-top: 2rem;
+    width: 140px;
+    height: 40px;
+    background: var(--blue);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.cards-news button:hover{
+    background-color: var(--white);
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+
+/* ====================== Footer */
+footer{
+    margin-top: 3rem;
+    padding: 5%;
+    background: var(--blue);
+    color: var(--white);
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+footer h3{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+footer p{
+    font-size: 1rem;
+}
+
+footer .contact{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .times{
+    margin-top: 15px;
+}
+
+.times span{
+    font-weight: bold;
+}
+
+footer .copyright{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
