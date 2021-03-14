@@ -1,0 +1,194 @@
+/* ============== Smartphones */
+
+@media (max-width: 680px){
+    /* ===================== menu */
+    .menu{
+        display: none;
+    }
+    
+    .menu_open{
+        display: inline;
+    }
+
+    /* ============== home & cards */
+    #home {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    /* ============= presentations */
+    .presentations{
+        flex-direction: column;
+    }
+
+    .presentations-content{
+        width: 100%;
+        height: 100%;
+    }
+
+    .presentations-content img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* ================== Services */
+    #service{
+        width: 100%;
+        height: auto;
+    }
+
+    .services{
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    /* ===================== News */
+    #news{
+        width: 100%;
+        height: auto;
+    }
+
+    .container-cards-news{
+        flex-direction: column;
+    }
+
+    .container-cards-news img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* ===================== Footer */
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+/* ==================================== Tablets */
+@media (min-width: 681px) and (max-width: 1023px){
+    /* ===================== menu */
+    .menu{
+        display: none;
+    }
+    
+    .menu_open{
+        display: inline;
+    }
+
+    /* ============== home & cards */
+
+    .card-home{
+        margin: 20px;
+        height: 380px;
+        padding: 15px;
+        margin-top: 25rem;
+    }
+
+    /* ============= presentations */
+    .presentations{
+        display: inline;
+    }
+    
+    .presentations-content{
+        width: 100%;
+        height: auto;
+    }
+    
+    .presentations-content img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* ============= Services */
+    #service{
+        width: 100%;
+        height: 100%;
+    }
+
+    .services .cards-services{
+        width: 30%;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+
+    /* ============= News */
+    #news{
+        width: 100%;
+        height: auto;
+    }
+
+    .container-cards-news{
+        margin: 0;
+        width: 100%;
+        height: 470px;
+        margin-top: 20px;
+    }
+
+    .container-cards-news img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ======================= Desktops */
+
+@media(min-width: 1024px){
+    /* ====================== Menu */
+    .btnMenu_open{
+        visibility: hidden;
+    }
+    .btnMenu_close{
+        visibility: hidden;
+    }
+
+    /* ============== home & cards */
+    .card-home{
+        margin: 20px;
+        padding: 15px;
+        margin-top: 30rem;
+    }
+
+    /* ============= presentations */
+
+    .presentations-content{
+        width: 100%;
+        height: auto;
+    }
+    
+    .presentations-content img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* ============= Services */
+    #service{
+        width: 100%;
+        height: 100%;
+    }
+
+    .services .cards-services{
+        width: 35%;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+
+    /* ============= News */
+    #news{
+        width: 100%;
+        height: auto;
+    }
+
+    .container-cards-news{
+        margin: 0;
+        width: 100%;
+        height: 470px;
+        margin-top: 20px;
+    }
+
+    .container-cards-news img{
+        width: 100%;
+        height: auto;
+    }
+}
